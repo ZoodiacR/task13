@@ -11,4 +11,4 @@ sqlparse==0.4.3
 tzdata==2022.7
 urllib3==2.0.3
 gunicorn==0.17.0
-uwsgi==2.0.19.1
+
