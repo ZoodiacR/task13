@@ -33,7 +33,7 @@ class TaskViewSet(viewsets.ModelViewSet):
         serializer = TaskSerializer(tasks, many=True)
         return Response(serializer.data)
 
-    def send_task_notification_email(user_email, task_title):
-        subject = 'Task Notification'
-        message = render_to_string('task_notification_email.html', {'task_title': task_title})
-        send_mail(subject, message, 'andyleon000820@gmail.com', [user_email])
+   # def send_task_notification_email(user_email, task_title):
+    #    subject = 'Task Notification'
+     #   message = render_to_string('task_notification_email.html', {'task_title': task_title})
+    #    send_mail(subject, message, 'andyleon000820@gmail.com', [user_email])
